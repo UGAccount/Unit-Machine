@@ -13591,7 +13591,7 @@
                 "Cooldown": 2.7,
                 "Slow": 0.4,
                 "SlowTime": 4,
-                "Stun": 0.5s
+                "Stun": 0.5
 
             },
             {
@@ -13601,7 +13601,7 @@
                 "Cooldown": 2.7,
                 "Slow": 0.4,
                 "SlowTime": 4,
-                "Stun": 0.5s
+                "Stun": 0.5
             },
             {
                 "Price": 10000,
@@ -13610,7 +13610,7 @@
                 "Cooldown": 2.7,
                 "Slow": 0.4,
                 "SlowTime": 4,
-                "Stun": 0.5s
+                "Stun": 0.5
             },
             {
                 "Price": 12000,
@@ -13619,7 +13619,7 @@
                 "Cooldown": 2.7,
                 "Slow": 0.4,
                 "SlowTime": 4,
-                "Stun": 0.5s
+                "Stun": 0.5
             }
         ]
     },
