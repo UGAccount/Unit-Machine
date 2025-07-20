@@ -14028,6 +14028,7 @@
                 "Damage": 30000,
                 "Cooldown": 5,
                 "Wither": 1.2,
+                "ShinyWither": 1.2,
                 "WitherTime": 5,
                 "HippoTurret1": {"Range": 50, "Damage": 5000, "Cooldown": 0.5}
             },
@@ -14037,6 +14038,7 @@
                 "Damage": 40000,
                 "Cooldown": 5,
                 "Wither": 1.2,
+                "ShinyWither": 1.2,
                 "WitherTime": 5,
                 "HippoTurret1": {"Range": 50, "Damage": 7000, "Cooldown": 0.5}
             },
@@ -14046,6 +14048,7 @@
                 "Damage": 50000,
                 "Cooldown": 5,
                 "Wither": 1.2,
+                "ShinyWither": 1.2,
                 "WitherTime": 5,
                 "HippoTurret1": {"Range": 50, "Damage": 9000, "Cooldown": 0.5}
             },
@@ -14055,6 +14058,7 @@
                 "Damage": 60000,
                 "Cooldown": 5,
                 "Wither": 1.2,
+                "ShinyWither": 1.2,
                 "WitherTime": 5,
                 "HippoTurret1": {"Range": 50, "Damage": 11500, "Cooldown": 0.5}
             }
