@@ -15019,33 +15019,25 @@
                 "Price": 0,
                 "Range": 20,
                 "Damage": 28000,
-                "Cooldown": 2.2,
-                "Burn": 38,
-                "BurnTime": 2
+                "Cooldown": 2.2
             },
             {
                 "Price": 55000,
                 "Range": 25,
                 "Damage": 32000,
-                "Cooldown": 2.2,
-                "Burn": 38,
-                "BurnTime": 1.66
+                "Cooldown": 2.2
             },
             {
                 "Price": 65000,
                 "Range": 30,
                 "Damage": 36000,
-                "Cooldown": 2.1,
-                "Burn": 38,
-                "BurnTime": 1.33
+                "Cooldown": 2.1
             },
             {
                 "Price": 75000,
                 "Range": 35,
                 "Damage": 40000,
-                "Cooldown": 2,
-                "Burn": 38,
-                "BurnTime": 1
+                "Cooldown": 2
             }
         ]
     }
