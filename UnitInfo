@@ -15000,5 +15000,53 @@
                 "Unit": "Porcelain Cupcake Doll"
             }
         ]
+    },
+    "Birthday Bash Bonnie": {
+        "Type": "Nuke",
+        "Image": "rbxassetid://72792573129785",
+        "Rarity": "Secret",
+        "PlacePrice": 45000,
+        "Offset": 1,
+        "Max": 1,
+        "Passive": {"Name": "Party Smash", "Description": "When this unit attacks, the affected area leaves a burning pile of candles and cake dealing 40% of its current damage in burn over 3s. Piles lasts for 3s."},
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 20,
+                "Damage": 28000,
+                "Cooldown": 2.2,
+                "Burn": 38,
+                "BurnTime": 2
+            },
+            {
+                "Price": 55000,
+                "Range": 25,
+                "Damage": 32000,
+                "Cooldown": 2.2,
+                "Burn": 38,
+                "BurnTime": 1.66
+            },
+            {
+                "Price": 65000,
+                "Range": 30,
+                "Damage": 36000,
+                "Cooldown": 2.1,
+                "Burn": 38,
+                "BurnTime": 1.33
+            },
+            {
+                "Price": 75000,
+                "Range": 35,
+                "Damage": 40000,
+                "Cooldown": 2,
+                "Burn": 38,
+                "BurnTime": 1
+            }
+        ]
     }
 }
