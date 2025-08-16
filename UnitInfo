@@ -14591,9 +14591,7 @@
                 "Damage": 17000,
                 "Cooldown": 1,
                 "Slow": 0.4,
-                "SlowTime": 2,
-	            "Burn": 4250,
-	            "BurnTime": 5
+                "SlowTime": 2
             },
             {
                 "Price": 44444,
@@ -14601,9 +14599,7 @@
                 "Damage": 21000,
                 "Cooldown": 1,
                 "Slow": 0.4,
-                "SlowTime": 2,
-	            "Burn": 5250,
-	            "BurnTime": 5
+                "SlowTime": 2
             },
             {
                 "Price": 55555,
@@ -14611,9 +14607,7 @@
                 "Damage": 24000,
                 "Cooldown": 0.9,
                 "Slow": 0.4,
-                "SlowTime": 2,
-	            "Burn": 6000,
-	            "BurnTime": 5
+                "SlowTime": 2
             },
             {
                 "Price": 66666,
@@ -14621,9 +14615,7 @@
                 "Damage": 27000,
                 "Cooldown": 0.8,
                 "Slow": 0.4,
-                "SlowTime": 2,
-                "Burn": 6750,
-	            "BurnTime": 5
+                "SlowTime": 2
             }
         ]
     },
