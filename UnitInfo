@@ -7506,7 +7506,7 @@
                 "Range": 25,
                 "Damage": 13000,
                 "Cooldown": 3,
-                "Burn": 39000,
+                "Burn": 13000,
                 "BurnTime": 3
             },
             {
@@ -7514,7 +7514,7 @@
                 "Range": 28,
                 "Damage": 15000,
                 "Cooldown": 3,
-                "Burn": 45000,
+                "Burn": 15000,
                 "BurnTime": 3
             },
             {
@@ -7522,7 +7522,7 @@
                 "Range": 30,
                 "Damage": 17000,
                 "Cooldown": 3,
-                "Burn": 51000,
+                "Burn": 17000,
                 "BurnTime": 3
             },
             {
@@ -7530,7 +7530,7 @@
                 "Range": 32,
                 "Damage": 19000,
                 "Cooldown": 3,
-                "Burn": 57000,
+                "Burn": 19000,
                 "BurnTime": 3
             }
         ]
@@ -8582,25 +8582,33 @@
                 "Price": 0,
                 "Range": 25,
                 "Damage": 16250,
-                "Cooldown": 2
+                "Cooldown": 2,
+                "Bleed": 0.4,
+                "BleedTime": 3
             },
             {
                 "Price": 80000,
                 "Range": 30,
                 "Damage": 19500,
-                "Cooldown": 2
+                "Cooldown": 2,
+                "Bleed": 0.4,
+                "BleedTime": 3
             },
             {
                 "Price": 90000,
                 "Range": 32,
                 "Damage": 22750,
-                "Cooldown": 2
+                "Cooldown": 2,
+                "Bleed": 0.4,
+                "BleedTime": 3
             },
             {
                 "Price": 100000,
                 "Range": 35,
                 "Damage": 27000,
-                "Cooldown": 2
+                "Cooldown": 2,
+                "Bleed": 0.4,
+                "BleedTime": 3
             }
         ]
     },
@@ -9854,7 +9862,7 @@
         "Offset": 0,
         "Max": 2,
         "NoEnemyAttack": true,
-        "Passive": {"Name": "Grand Equionox", "Description": "Every 3rd attack deals 400% damage. Does +1% damage per enemy within range. Units within range gain a +30% income boost."},
+        "Passive": {"Name": "Grand Equionox", "Description": "Every 3rd attack deals 400% damage and applies 60% Anti-Regen for 3 seconds. Does +1% damage per enemy within range. Units within range gain a +30% income boost."},
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
@@ -9866,28 +9874,36 @@
                 "Range": 25,
                 "Damage": 16000,
                 "Cooldown": 2,
-                "MoneyBoost": 1.3
+                "MoneyBoost": 1.3,
+                "Bleed": 0.4,
+                "BleedTime": 3
             },
             {
                 "Price": 35000,
                 "Range": 30,
                 "Damage": 19000,
                 "Cooldown": 2,
-                "MoneyBoost": 1.3
+                "MoneyBoost": 1.3,
+                "Bleed": 0.4,
+                "BleedTime": 3
             },
             {
                 "Price": 40000,
                 "Range": 32,
                 "Damage": 22000,
                 "Cooldown": 2,
-                "MoneyBoost": 1.3
+                "MoneyBoost": 1.3,
+                "Bleed": 0.4,
+                "BleedTime": 3
             },
             {
                 "Price": 50000,
                 "Range": 35,
                 "Damage": 26000,
                 "Cooldown": 2,
-                "MoneyBoost": 1.3
+                "MoneyBoost": 1.3,
+                "Bleed": 0.4,
+                "BleedTime": 3
             }
         ]
     },
@@ -13527,7 +13543,7 @@
         "PlacePrice": 20000,
         "Offset": 0.4,
         "Max": 2,
-        "Passive": {"Name": "Smile! Say Cheese!", "Description": "Provides a 1.25x-1.55x range boost to all units in range. Also boosts all Sister Location units damage on the team by 1.3x (62.5% when Shiny)."},
+        "Passive": {"Name": "Smile! Say Cheese!", "Description": "Provides a 1.25x-1.55x range boost to all units in range. Also boosts all Sister Location and Chica units damage on the team by 1.3x (62.5% when Shiny)."},
         "NoEnemyAttack": true,
         "hitboxOffset": {
             "X": 0,
@@ -15057,7 +15073,7 @@
         "PlacePrice": 56000,
         "Offset": 0.3,
         "Max": 1,
-        "Passive": {"Name": "+75% damage to bosses/imps -> Gains a stacking +23.3% damage to imps (Cap of 3). Scaling True Stun, 1 = 0.5s. 2 = 1s. 3 = 1.5s. If a boss is in range acts as max scaling."},
+        "Passive": {"Name": "+75% damage to bosses/imps -> Gains a stacking +25% damage to imps (Cap of 3). Scaling True Stun, 1 = 0.5s. 2 = 1s. 3 = 1.5s. If a boss is in range acts as max scaling."},
         "hitboxOffset": {
             "X": 0,
             "Y": 0,
