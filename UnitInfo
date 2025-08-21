@@ -7553,7 +7553,7 @@
             {
                 "Price": 0,
                 "Range": 20,
-                "Damage": 1200,
+                "Damage": 6250,
                 "Cooldown": 1.5,
                 "Slow": 0.40,
                 "SlowTime": 1,
@@ -7566,7 +7566,7 @@
             {
                 "Price": 15000,
                 "Range": 25,
-                "Damage": 1400,
+                "Damage": 8250,
                 "Cooldown": 1.4,
                 "Slow": 0.40,
                 "SlowTime": 1,
@@ -7579,7 +7579,7 @@
             {
                 "Price": 17500,
                 "Range": 30,
-                "Damage": 1600,
+                "Damage": 10500,
                 "Cooldown": 1.3,
                 "Slow": 0.40,
                 "SlowTime": 1,
@@ -7592,7 +7592,7 @@
             {
                 "Price": 20000,
                 "Range": 35,
-                "Damage": 2800,
+                "Damage": 12500,
                 "Cooldown": 1.2,
                 "Slow": 0.40,
                 "SlowTime": 1,
@@ -15107,6 +15107,70 @@
                 "Damage": 105000,
                 "Cooldown": 3,
                 "LargeDamage": 1.75
+            }
+        ]
+    },
+    "Painter Puppet": {
+        "Type": "Cone AOE",
+        "Image": "rbxassetid://74447601469380",
+        "Rarity": "Secret",
+        "PlacePrice": 20000,
+        "Max": 2,
+        "Passive": {"Name": "Paint Splatter", "Description": "When this unit attacks, has a 60% chance to apply Slow (58.5% for 1s), Wither (17.5% for 1s), and Anti-Regen (35% for 1.5s) "},
+        "Offset": 0.3,
+        "hitboxOffset": {
+            "X": 0,
+            "Y": 0,
+            "Z": 0
+        },
+        "Upgrades": [
+            {
+                "Price": 0,
+                "Range": 20,
+                "Damage": 18000,
+                "Cooldown": 4,
+                "Wither": 1.175,
+                "WitherTime": 1,
+                "Slow": 0.415,
+                "SlowTime": 1,
+                "Bleed": 0.65,
+                "BleedTime": 1.5
+            },
+            {
+                "Price": 30000,
+                "Range": 24,
+                "Damage": 22000,
+                "Cooldown": 3.33,
+                "Wither": 1.175,
+                "WitherTime": 1,
+                "Slow": 0.415,
+                "SlowTime": 1,
+                "Bleed": 0.65,
+                "BleedTime": 1.5
+            },
+            {
+                "Price": 40000,
+                "Range": 28,
+                "Damage": 26000,
+                "Cooldown": 2.66,
+                "Wither": 1.175,
+                "WitherTime": 1,
+                "Slow": 0.415,
+                "SlowTime": 1,
+                "Bleed": 0.65,
+                "BleedTime": 1.5
+            },
+            {
+                "Price": 50000,
+                "Range": 32,
+                "Damage": 30000,
+                "Cooldown": 2,
+                "Wither": 1.175,
+                "WitherTime": 1,
+                "Slow": 0.415,
+                "SlowTime": 1,
+                "Bleed": 0.65,
+                "BleedTime": 1.5
             }
         ]
     }
