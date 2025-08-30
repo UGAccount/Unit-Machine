@@ -6587,8 +6587,8 @@
         "WalkSpeed": 9,
         "Health": 500,
         "Cooldown": 2,
-        "Wither": 1.01,
-        "ShinyWither": 1.01,
+        "Wither": 1.1,
+        "ShinyWither": 1.1,
         "WitherTime": 1
       },
       {
@@ -6602,8 +6602,8 @@
         "WalkSpeed": 9,
         "Health": 500,
         "Cooldown": 1.66,
-        "Wither": 1.01,
-        "ShinyWither": 1.01,
+        "Wither": 1.1,
+        "ShinyWither": 1.1,
         "WitherTime": 1
       },
       {
@@ -6617,8 +6617,8 @@
         "WalkSpeed": 9,
         "Health": 500,
         "Cooldown": 1.33,
-        "Wither": 1.01,
-        "ShinyWither": 1.01,
+        "Wither": 1.1,
+        "ShinyWither": 1.1,
         "WitherTime": 1
       },
       {
@@ -6632,8 +6632,8 @@
         "WalkSpeed": 9,
         "Health": 50000,
         "Cooldown": 1.33,
-        "Wither": 1.01,
-        "ShinyWither": 1.01,
+        "Wither": 1.1,
+        "ShinyWither": 1.1,
         "WitherTime": 1
       }
     ]
@@ -8054,14 +8054,14 @@
       {
         "Price": 17000,
         "Range": 30,
-        "Damage": 250,
+        "Damage": 416,
         "Cooldown": 0.25,
         "DamageBoost": 1.35
       },
       {
         "Price": 22000,
         "Range": 35,
-        "Damage": 300,
+        "Damage": 520,
         "Cooldown": 0.25,
         "DamageBoost": 1.35
       },
@@ -12008,7 +12008,7 @@
     "Max": 3,
     "Passive": {
       "Name": "Space Rider",
-      "Description": "+25% damage when paired with Astral Bonnie or Planet Buster. Spawns a clone of himself every 13s that has health equal to 48x his damage."
+      "Description": "+25% damage when paired with Astral Bonnie or Planet Buster. Spawns a clone of himself every 13s that has health equal to 48x his damage. Attacks apply 65% anti-regen."
     },
     "NoEnemyAttack": true,
     "hitboxOffset": {
