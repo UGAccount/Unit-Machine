@@ -5120,12 +5120,16 @@
     ]
   },
   "Circus Baby": {
-    "Type": "Splash Stun",
+    "Type": "Slash Stun",
     "Image": "rbxassetid://109411645448750",
-    "Rarity": "Secret",
-    "PlacePrice": 17500,
+    "Rarity": "Nightmare",
+    "PlacePrice": 22500,
     "Offset": 0,
-    "Max": 3,
+    "Max": 2,
+    "Passive": {
+      "Name": "Family Reunion",
+      "Description": "Attacks stun enemies for 0.5 seconds. Circus Baby gains an additional 40% damage boost (stackable up to 120%) if a Springtrap or Ballora are on the same team."
+    },
     "hitboxOffset": {
       "X": 0,
       "Y": 0,
@@ -5134,33 +5138,33 @@
     "Upgrades": [
       {
         "Price": 0,
-        "Range": 18,
-        "Damage": 2000,
-        "Cooldown": 3,
+        "Range": 28,
+        "Damage": 4782,
+        "Cooldown": 3.25,
         "Slow": 0,
         "SlowTime": 0.5
       },
       {
         "Price": 20000,
-        "Range": 20,
-        "Damage": 3000,
-        "Cooldown": 2.6,
+        "Range": 31,
+        "Damage": 6374,
+        "Cooldown": 3,
         "Slow": 0,
         "SlowTime": 0.5
       },
       {
         "Price": 25000,
-        "Range": 21,
-        "Damage": 3000,
-        "Cooldown": 2.3,
+        "Range": 34,
+        "Damage": 7968,
+        "Cooldown": 2.75,
         "Slow": 0,
         "SlowTime": 0.5
       },
       {
         "Price": 30000,
-        "Range": 22,
-        "Damage": 4000,
-        "Cooldown": 2,
+        "Range": 37,
+        "Damage": 9562,
+        "Cooldown": 2.55,
         "Slow": 0,
         "SlowTime": 0.5
       }
@@ -6567,7 +6571,7 @@
     "Max": 4,
     "Passive": {
       "Name": "Necromancer",
-      "Description": "Summons spawn every 13 seconds and have health equal to 150 times this unit’s damage. Attacks apply 10% wither"
+      "Description": "Summons spawn every 13 seconds and have health equal to 90 times this unit’s damage. Attacks apply 10% wither"
     },
     "NoEnemyAttack": true,
     "hitboxOffset": {
@@ -11122,7 +11126,7 @@
         "Price": 0,
         "Range": 25,
         "Damage": 8000,
-        "Cooldown": 2,
+        "Cooldown": 1.5,
         "Slow": 0.35,
         "SlowTime": 2
       },
@@ -11130,7 +11134,7 @@
         "Price": 9000,
         "Range": 28,
         "Damage": 10000,
-        "Cooldown": 2,
+        "Cooldown": 1.5,
         "Slow": 0.35,
         "SlowTime": 2
       },
@@ -11138,7 +11142,7 @@
         "Price": 12000,
         "Range": 31,
         "Damage": 12000,
-        "Cooldown": 2,
+        "Cooldown": 1.5,
         "Slow": 0.35,
         "SlowTime": 2
       },
@@ -11146,7 +11150,7 @@
         "Price": 15000,
         "Range": 35,
         "Damage": 14000,
-        "Cooldown": 2,
+        "Cooldown": 1.5,
         "Slow": 0.35,
         "SlowTime": 2
       }
@@ -11688,7 +11692,7 @@
     "Max": 1,
     "Passive": {
       "Name": "Devastator",
-      "Description": "Attacks instantly execute enemies under 30% health and bosses and imps at 10%. Attacks Stun enemies for 0.75s"
+      "Description": "Attacks instantly execute enemies under 25% health and bosses and imps at 12.5%. Attacks Stun enemies for 0.75s"
     },
     "hitboxOffset": {
       "X": 0,
@@ -12012,7 +12016,7 @@
     "Max": 3,
     "Passive": {
       "Name": "Space Rider",
-      "Description": "+25% damage when paired with Astral Bonnie or Planet Buster. Spawns a clone of himself every 13s that has health equal to 48x his damage. Attacks apply 65% anti-regen."
+      "Description": "+25% damage when paired with Astral Bonnie or Planet Buster. Spawns a clone of himself every 13s that has health equal to 30x his damage. Attacks apply 40% anti-regen."
     },
     "NoEnemyAttack": true,
     "hitboxOffset": {
@@ -12029,7 +12033,7 @@
         "WalkSpeed": 9,
         "Health": 500,
         "Cooldown": 2,
-        "Bleed": 0.35,
+        "Bleed": 0.6,
         "BleedTime": 2
       },
       {
@@ -12040,7 +12044,7 @@
         "WalkSpeed": 9,
         "Health": 500,
         "Cooldown": 2,
-        "Bleed": 0.35,
+        "Bleed": 0.6,
         "BleedTime": 2
       },
       {
@@ -12051,7 +12055,7 @@
         "WalkSpeed": 9,
         "Health": 500,
         "Cooldown": 2,
-        "Bleed": 0.35,
+        "Bleed": 0.6,
         "BleedTime": 2
       },
       {
@@ -12062,7 +12066,7 @@
         "WalkSpeed": 9,
         "Health": 500,
         "Cooldown": 2,
-        "Bleed": 0.35,
+        "Bleed": 0.6,
         "BleedTime": 2
       }
     ]
@@ -14193,7 +14197,7 @@
     "Max": 2,
     "Passive": {
       "Name": "Time to Play!",
-      "Description": "Attacks apply 60% slow for 4 seconds and Stun enemies for 0.4 seconds."
+      "Description": "Attacks apply 60% slow for 5.5 seconds and Stun enemies for 0.4 seconds."
     },
     "hitboxOffset": {
       "X": 0,
@@ -14203,38 +14207,38 @@
     "Upgrades": [
       {
         "Price": 0,
-        "Range": 28,
+        "Range": 30,
         "Damage": 8000,
         "Cooldown": 2.5,
         "Slow": 0.4,
-        "SlowTime": 4,
+        "SlowTime": 5.5,
         "Stun": 0.4
       },
       {
         "Price": 8000,
-        "Range": 30,
+        "Range": 32,
         "Damage": 11000,
         "Cooldown": 2.5,
         "Slow": 0.4,
-        "SlowTime": 4,
+        "SlowTime": 5.5,
         "Stun": 0.4
       },
       {
         "Price": 10000,
-        "Range": 32,
+        "Range": 34,
         "Damage": 14000,
         "Cooldown": 2.5,
         "Slow": 0.4,
-        "SlowTime": 4,
+        "SlowTime": 5.5,
         "Stun": 0.4
       },
       {
         "Price": 12000,
-        "Range": 35,
+        "Range": 37,
         "Damage": 17500,
         "Cooldown": 2.5,
         "Slow": 0.4,
-        "SlowTime": 4,
+        "SlowTime": 5.5,
         "Stun": 0.4
       }
     ]
@@ -15866,7 +15870,7 @@
     "Max": 1,
     "Passive": {
       "Name": "Mega Virus",
-      "Description": "Attacks apply Mega Virus marking enemies causing 20% Wither and 20% Auto Execute. When a marked enemy is hit again, Mega Virus strikes dealing +300% damage, 3s True Stun and 45% Auto Execute (15% to Bosses/Imps)."
+      "Description": "Attacks apply Mega Virus marking up to 5 enemies causing 20% Auto Execute. When a marked enemy is hit again, Mega Virus triggers dealing +652% damage, 2.8s True Stun and 45% Auto Execute (15% to Bosses/Imps)."
     },
     "hitboxOffset": {
       "X": 0,
@@ -15879,37 +15883,25 @@
         "Price": 0,
         "Range": 25,
         "Damage": 75000,
-        "Cooldown": 5,
-        "Wither": 1.2,
-        "ShinyWither": 1.2,
-        "WitherTime": 5
+        "Cooldown": 8
       },
       {
         "Price": 119999,
         "Range": 28,
         "Damage": 100000,
-        "Cooldown": 5,
-        "Wither": 1.2,
-        "ShinyWither": 1.2,
-        "WitherTime": 5
+        "Cooldown": 8
       },
       {
         "Price": 139999,
         "Range": 32,
         "Damage": 125000,
-        "Cooldown": 5,
-        "Wither": 1.2,
-        "ShinyWither": 1.2,
-        "WitherTime": 5
+        "Cooldown": 8
       },
       {
         "Price": 159999,
         "Range": 35,
-        "Damage": 150000,
-        "Cooldown": 5,
-        "Wither": 1.2,
-        "ShinyWither": 1.2,
-        "WitherTime": 5
+        "Damage": 155000,
+        "Cooldown": 8
       }
     ]
   }
